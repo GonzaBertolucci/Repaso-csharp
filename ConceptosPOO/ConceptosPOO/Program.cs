@@ -5,7 +5,18 @@
         static void Main(string[] args)
         {
             //Llamada de funcion
-            realizarTarea();
+            //realizarTarea();
+
+            //Clase anonima. Ejemplos
+            var miVariable = new { Nombre = "Gonzalo", Edad = 24 };
+
+            Console.WriteLine(miVariable.Nombre + " " + miVariable.Edad);
+            //Dos objetos que pertenecen a la misma clase. Porque en funcion de la cantidad de campos, de cada tipo y orden
+            //Determina si se trata de la misma clase o no
+            //https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/types/anonymous-types
+            var miOtraVariable = new { Nombre = "Ana", Edad = 25 };
+
+            miVariable = miOtraVariable;
         }
 
         static void realizarTarea()
