@@ -17,6 +17,10 @@
             double distancia = origen.DistanciaHasta(destino);
 
             Console.WriteLine($"La distancia entre los puntos es de: {distancia}");
+
+            Console.WriteLine($"Numero de objetos creados: {Punto.ContadorDeObjetos()}");
+
+            
         }
     }
 }

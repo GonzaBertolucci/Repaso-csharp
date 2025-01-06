@@ -13,11 +13,15 @@ namespace ConceptosPOO
         {
             this.x = x;
             this.y = y;
+
+            contadorDeObjetos++;
         }
         public Punto()
         {
             this.x = 0;
             this.y = 0;
+
+            contadorDeObjetos++;
         }
 
         public double DistanciaHasta(Punto otroPunto)
@@ -30,7 +34,22 @@ namespace ConceptosPOO
 
             return distanciaPuntos;
         }
+        //Metodo estatico. "static"
+        // https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/keywords/static
+        public static int ContadorDeObjetos()
+        {
+            return contadorDeObjetos;
+        }
+        
+        /* Se puede simplificar de la siguiente manera
+         * public static int ContadorDeObjetos() => contadorDeObjetos;
+         *
+         **/
 
         private int x, y;
+
+        private static int contadorDeObjetos = 0;
+
+        public const int constantePrueba = 7;
     }
 }
