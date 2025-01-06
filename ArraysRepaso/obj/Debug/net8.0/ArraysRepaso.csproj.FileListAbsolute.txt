@@ -1,0 +1,15 @@
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\bin\Debug\net8.0\ArraysRepaso.exe
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\bin\Debug\net8.0\ArraysRepaso.deps.json
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\bin\Debug\net8.0\ArraysRepaso.runtimeconfig.json
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\bin\Debug\net8.0\ArraysRepaso.dll
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\bin\Debug\net8.0\ArraysRepaso.pdb
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ArraysRepaso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ArraysRepaso.AssemblyInfoInputs.cache
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ArraysRepaso.AssemblyInfo.cs
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ArraysRepaso.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ArraysRepaso.sourcelink.json
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ArraysRepaso.dll
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\refint\ArraysRepaso.dll
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ArraysRepaso.pdb
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ArraysRepaso.genruntimeconfig.cache
+C:\Users\Gonzalo\source\repos\Arrays\ArraysRepaso\ArraysRepaso\obj\Debug\net8.0\ref\ArraysRepaso.dll
