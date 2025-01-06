@@ -13,6 +13,10 @@
             //Instanciacion del objeto punto
             Punto origen = new Punto();
             Punto destino = new Punto(150,90);
+
+            double distancia = origen.DistanciaHasta(destino);
+
+            Console.WriteLine($"La distancia entre los puntos es de: {distancia}");
         }
     }
 }
