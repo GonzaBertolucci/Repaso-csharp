@@ -1,59 +1,46 @@
-﻿namespace PracticaPOO
+﻿namespace ArraysRepaso
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Circulo miCirculo = new Circulo(); //Creacion de objeto de tipo ciruclo. Iniciacion de variable/objeto.
+            //Array implicito
 
-            Console.WriteLine(miCirculo.CalculoArea(5));
+            var datos = new[] { "Gonzalo", "Bertolucci", "Argentina" };
 
-            Circulo miCirculo2 = new Circulo();
+            var valores = new[] {15, 28, 35, 75.4, 30.31 };
 
-            Console.WriteLine(miCirculo2.CalculoArea(9));
+            Empleados Ana = new Empleados("Ana", 20);
 
-            conversorDolarPesos obj = new conversorDolarPesos();
+            //Array de objetos
+            Empleados[] arrayEmpleados = new Empleados[2];
+            //Crear objeto mientras lo almaceno
+            arrayEmpleados[0] = new Empleados("Sara", 37);
+            //Almaceno uno ya creado
+            arrayEmpleados[1] = Ana;
 
-            obj.cambiarValorDolar(1080);
+            //Array de tipos o clases anonimas
+            var personas = new[]
+            {
+                new{Nombre = "Juan", Edad = 19},
+                new{Nombre = "Maria", Edad = 20},
+                new{Nombre = "Diana", Edad = 35}
+            };
 
-            Console.WriteLine(obj.convierte(50));
-            Console.ReadLine();
+            Console.WriteLine(personas[1]);
         }
-    }
-}
 
-
-class Circulo
-{
-
-    private const double pi = 3.1416; //Propiedad de la clase circulo
-
-    public double CalculoArea(int radio) //Metodo de clase.
-    {
-        return pi * radio * radio;
-    }
-}
-
-class conversorDolarPesos
-{
-    //Propiedad encapsulada.
-    private double dolar = 1015;
-
-    public double convierte(double cantidad)
-    {
-        return dolar * cantidad;
-    }
-    //Si necesito cambiar el valor de un dato encapsulado lo mejor seria hacer esto.
-    public void cambiarValorDolar(double nuevoValor)
-    {
-        if(nuevoValor > 0)
+        class Empleados
         {
-            dolar = nuevoValor;
+            public Empleados(string nombre, int edad)
+            {
+                this.nombre = nombre;
+                this.edad = edad;
+            }
+
+            string nombre;
+            int edad;
         }
-        else
-        {
-            Console.WriteLine("Error. Debe introducir un numero positivo");
-        }
-        
+
     }
 }
